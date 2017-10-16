@@ -11,8 +11,7 @@
 	<description>Custom HTML plugin for JCE</description>
 	<icon>custom</icon>
 	<files folder="plugins/jce/editor-custom">
-		<file plugin="editor-custom">editor-custom.php</file>
-		<file>editor_plugin.js</file>
+		<file plugin="editor-custom">editor_plugin.js</file>
 		<folder>img</folder>
 	</files>
 	<params group="standard"></params>
