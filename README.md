@@ -12,4 +12,10 @@ After installation, assign the plugin to an Editor Profile in Editor Profiles ->
 ## Customization
 This plugin is intended as a jumping off point for creating your own simple JCE plugin. This example inserts a simple HTML string which is declared on line 8 of the plugin's editor_plugin.js file, ie: https://github.com/widgetfactory/jce-custom/blob/master/plugins/jce/editor-custom/editor_plugin.js#L8
 
+```javascript
+var html = '<span class="custom">Some HTML</span>';                  
+
+ed.execCommand('mceInsertContent', false, html);
+```
+
 This string can be edited to insert your own HTML, or the plugin expanded through the addition of custom functions.
