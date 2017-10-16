@@ -5,7 +5,9 @@
                 title: 'Custom HTML',
                 image: url + '/img/custom.png',
                 onclick: function () {
-                    ed.execCommand('mceInsertContent', false, '<span class="custom">Some HTML</span>');
+                    var html = '<span class="custom">Some HTML</span>';
+                    
+                    ed.execCommand('mceInsertContent', false, html);
                 }
             });
         }
