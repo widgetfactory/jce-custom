@@ -10,7 +10,9 @@ Install using the Joomla Extensions Installer - https://docs.joomla.org/Installi
 After installation, assign the plugin to an Editor Profile in Editor Profiles -> Features & Layout.
 
 ## Customization
-This plugin is intended as a jumping off point for creating your own simple JCE plugin. This example inserts a simple HTML string which is declared on line 8 of the plugin's editor_plugin.js file, ie: https://github.com/widgetfactory/jce-custom/blob/master/plugins/jce/editor-custom/editor_plugin.js#L8
+This plugin is intended as a jumping off point for creating your own simple JCE plugin. This example inserts a simple HTML string which is declared on line 8 of the plugin's editor_plugin.js file: 
+
+https://github.com/widgetfactory/jce-custom/blob/master/plugins/jce/editor-custom/editor_plugin.js#L8
 
 ```javascript
 var html = '<span class="custom">Some HTML</span>';                  
