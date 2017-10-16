@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<extension version="2.5" type="plugin" group="jce" method="upgrade">
+	<name>JCE - Custom HTML</name>
+	<version>1.0.0</version>
+	<creationDate>October 2017</creationDate>
+	<author>Moxiecode / Ryan Demmer</author>
+	<authorEmail>info@joomlacontenteditor.net</authorEmail>
+	<authorUrl>https://www.joomlacontenteditor.net/</authorUrl>
+	<copyright>Copyright (C) 2006 - 2017 Ryan Demmer. All rights reserved</copyright>
+	<license>GNU/GPL Version 2 - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>Custom HTML plugin for JCE</description>
+	<icon>custom</icon>
+	<files folder="plugins/jce/editor-custom">
+		<file plugin="editor-custom">editor-custom.php</file>
+		<file>editor_plugin.js</file>
+		<folder>img</folder>
+	</files>
+	<params group="standard"></params>
+	<languages></languages>
+	<help></help>
+</extension>
