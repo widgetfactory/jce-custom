@@ -9,7 +9,7 @@
 	<copyright>Copyright (C) 2006 - 2017 Ryan Demmer. All rights reserved</copyright>
 	<license>GNU/GPL Version 2 - http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<description>Custom HTML plugin for JCE</description>
-	<icon image="plugins/jce/editor-custom/img/custom.png">custom</icon>
+	<icon image="plugins/jce/editor-custom/img/custom.png">custom1,custom2</icon>
 	<files folder="plugins/jce/editor-custom">
 		<file plugin="editor-custom">editor_plugin.js</file>
 		<folder>img</folder>
